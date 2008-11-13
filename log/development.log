@@ -1,0 +1,8 @@
+
+
+Processing IndexController#index (for 127.0.0.1 at 2008-11-13 12:42:51) [GET]
+  Session ID: c909bd5d8d3bb4d076a73bd7195dee11
+  Parameters: {"action"=>"index", "controller"=>"index"}
+Rendering template within layouts/application
+Rendering index/index
+Completed in 0.00328 (305 reqs/sec) | Rendering: 0.00151 (46%) | DB: 0.00000 (0%) | 200 OK [http://0.0.0.0/]
