@@ -1,0 +1,27 @@
+javascript:
+  
+  prototype:
+    - version     : 1.6.0.3
+      url         : 'http://ajax.googleapis.com/ajax/libs/prototype/1.6.0.3/prototype.js'
+    - version     : 1.6.0.2
+      url         : 'http://ajax.googleapis.com/ajax/libs/prototype/1.6.0.2/prototype.js'
+      
+  scriptaculous:
+    - version     : 1.8.1
+      url         : 'http://ajax.googleapis.com/ajax/libs/scriptaculous/1.8.1/scriptaculous.js'
+                  
+  jquery:         
+    - version     : 1.2.6
+      url         : 'http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js'
+      
+  
+stylesheet:
+  
+  yahoo-reset:
+    - version     : 2.6.0
+      url         : 'http://yui.yahooapis.com/combo?2.6.0/build/reset/reset.css'
+
+      
+  yahoo-reset-fonts:
+    - version     : 2.6.0
+      url         : 'http://yui.yahooapis.com/combo?2.6.0/build/reset-fonts/reset-fonts.css'
