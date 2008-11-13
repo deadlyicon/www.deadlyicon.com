@@ -3,7 +3,8 @@
 <html>
   <head>
     <title>DeadlyiCoN | <%= yield :title %></title>
-    <%= stylesheet_link_tag 'reset-fonts', 'application' %>
+    <%= stylesheet_link_tag :name => 'yahoo-reset-fonts', :version => '2.6.0', :localname => 'reset-fonts'  %>
+    <%= stylesheet_link_tag 'application'  %>
     <%= javascript_include_tag :defaults %>
   </head>
   <body>
