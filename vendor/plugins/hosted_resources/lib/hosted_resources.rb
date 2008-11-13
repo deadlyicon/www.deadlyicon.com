@@ -18,18 +18,8 @@ module HostedResources
   RESOURCES = YAML::parse( File.open( "#{File.dirname(__FILE__)}/resources.yml" ) ).transform
   
   def stylesheet_link_tag(*resources)
-
-    # begin
-      resources.map!{ |resource|  hosted_resource_path(:stylesheet, resource) }
-    # rescue Exception => e
-    #   raise "CRAP! #{e}"
-    # end
-
-    # begin
-      super(resources)
-    # rescue Exception => e
-    #   raise "FUCK TSATI! #{e} FOR #{resources.inspect}"
-    # end
+    resources.map!{ |resource|  hosted_resource_path(:stylesheet, resource) }
+    super(resources)
   end
   
   private 
@@ -58,14 +48,6 @@ module HostedResources
     end
     
     
-  end
-  
-  def localpath(resource)
-    resource[:localname] || resource[:name]
-  end
-  
-  def self.path(*args)
-    hosted_resource_path(*args)
   end
   
 end
