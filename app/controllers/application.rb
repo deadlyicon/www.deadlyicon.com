@@ -12,4 +12,13 @@ class ApplicationController < ActionController::Base
   # Uncomment this to filter the contents of submitted sensitive data parameters
   # from your application log (in this case, all fields with names like "password"). 
   # filter_parameter_logging :password
+  
+  # def rescue_action_in_public(exception)
+  #   render :text => "<html><body><p>There was a global error processing your request.</p><!--  #{exception}  --></body></html>"
+  # end
+  # 
+  # def local_request?
+  #   false
+  # end
+  
 end

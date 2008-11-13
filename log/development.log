@@ -6633,3 +6633,1101 @@ SGFzaHsABjoKQHVzZWR7AA==--b7b8295c61d7f548d0955bab7cdd4daae46fd3a0
 Rendering template within layouts/application
 Rendering index/index
 Completed in 0.00395 (253 reqs/sec) | Rendering: 0.00227 (57%) | DB: 0.00000 (0%) | 200 OK [http://0.0.0.0/]
+
+
+Processing IndexController#index (for 127.0.0.1 at 2008-11-13 23:08:27) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--b7b8295c61d7f548d0955bab7cdd4daae46fd3a0
+  Parameters: {"action"=>"index", "controller"=>"index"}
+Rendering template within layouts/application
+Rendering index/index
+Completed in 0.00527 (189 reqs/sec) | Rendering: 0.00354 (67%) | DB: 0.00000 (0%) | 200 OK [http://0.0.0.0/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2008-11-13 23:08:34) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--b7b8295c61d7f548d0955bab7cdd4daae46fd3a0
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/resume" with {:method=>:get}):
+    /vendor/rails/actionpack/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    /vendor/rails/actionpack/lib/action_controller/routing/route_set.rb:385:in `recognize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:503:in `load'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:503:in `load'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:355:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:503:in `load'
+    /vendor/rails/railties/lib/commands/servers/mongrel.rb:64
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:510:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:355:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:510:in `require'
+    /vendor/rails/railties/lib/commands/server.rb:39
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+
+Rendering /Users/jgrippe/Projects/deadlyicon.com/www/vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing ResumeController#index (for 127.0.0.1 at 2008-11-13 23:10:20) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--b7b8295c61d7f548d0955bab7cdd4daae46fd3a0
+  Parameters: {"action"=>"index", "controller"=>"resume"}
+Rendering template within layouts/resume
+Rendering resume/index
+Completed in 0.01874 (53 reqs/sec) | Rendering: 0.01653 (88%) | DB: 0.00000 (0%) | 200 OK [http://0.0.0.0/resume]
+
+
+Processing ResumeController#index (for 127.0.0.1 at 2008-11-13 23:10:42) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--b7b8295c61d7f548d0955bab7cdd4daae46fd3a0
+  Parameters: {"action"=>"index", "controller"=>"resume"}
+Rendering template within layouts/resume
+Rendering resume/index
+Completed in 0.01735 (57 reqs/sec) | Rendering: 0.01516 (87%) | DB: 0.00000 (0%) | 200 OK [http://0.0.0.0/resume]
+
+
+Processing ResumeController#index (for 127.0.0.1 at 2008-11-13 23:10:43) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--b7b8295c61d7f548d0955bab7cdd4daae46fd3a0
+  Parameters: {"action"=>"index", "controller"=>"resume"}
+Rendering template within layouts/resume
+Rendering resume/index
+Completed in 0.00291 (343 reqs/sec) | Rendering: 0.00084 (28%) | DB: 0.00000 (0%) | 200 OK [http://0.0.0.0/resume]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2008-11-13 23:10:47) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--b7b8295c61d7f548d0955bab7cdd4daae46fd3a0
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/resume.html" with {:method=>:get}):
+    /vendor/rails/actionpack/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    /vendor/rails/actionpack/lib/action_controller/routing/route_set.rb:385:in `recognize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:503:in `load'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:503:in `load'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:355:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:503:in `load'
+    /vendor/rails/railties/lib/commands/servers/mongrel.rb:64
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:510:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:355:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:510:in `require'
+    /vendor/rails/railties/lib/commands/server.rb:39
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+
+Rendering /Users/jgrippe/Projects/deadlyicon.com/www/vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing ResumeController#index (for 127.0.0.1 at 2008-11-13 23:15:45) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--b7b8295c61d7f548d0955bab7cdd4daae46fd3a0
+  Parameters: {"format"=>"html", "action"=>"index", "controller"=>"resume"}
+Rendering template within layouts/resume
+Rendering resume/index
+Completed in 0.01801 (55 reqs/sec) | Rendering: 0.01599 (88%) | DB: 0.00000 (0%) | 200 OK [http://0.0.0.0/resume.html]
+
+
+Processing ResumeController#index (for 127.0.0.1 at 2008-11-13 23:15:49) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--b7b8295c61d7f548d0955bab7cdd4daae46fd3a0
+  Parameters: {"format"=>"text", "action"=>"index", "controller"=>"resume"}
+
+
+ActionController::UnknownAction (No action responded to index):
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:579:in `call_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:572:in `perform_action_without_benchmark'
+    /vendor/rails/actionpack/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /opt/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /vendor/rails/actionpack/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /vendor/rails/actionpack/lib/action_controller/rescue.rb:201:in `perform_action_without_caching'
+    /vendor/rails/actionpack/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    /vendor/rails/activerecord/lib/active_record/query_cache.rb:8:in `cache'
+    /vendor/rails/actionpack/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:529:in `send'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:529:in `process_without_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:568:in `process_without_session_management_support'
+    /vendor/rails/actionpack/lib/action_controller/session_management.rb:130:in `process'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:389:in `process'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:149:in `handle_request'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:503:in `load'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:503:in `load'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:355:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:503:in `load'
+    /vendor/rails/railties/lib/commands/servers/mongrel.rb:64
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:510:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:355:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:510:in `require'
+    /vendor/rails/railties/lib/commands/server.rb:39
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+
+Rendering /Users/jgrippe/Projects/deadlyicon.com/www/vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing ResumeController#index (for 127.0.0.1 at 2008-11-13 23:15:51) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--b7b8295c61d7f548d0955bab7cdd4daae46fd3a0
+  Parameters: {"format"=>"txt", "action"=>"index", "controller"=>"resume"}
+Rendering resume/index
+Completed in 0.00267 (374 reqs/sec) | Rendering: 0.00071 (26%) | DB: 0.00000 (0%) | 200 OK [http://0.0.0.0/resume.txt]
+
+
+Processing ResumeController#index (for 127.0.0.1 at 2008-11-13 23:16:28) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--b7b8295c61d7f548d0955bab7cdd4daae46fd3a0
+  Parameters: {"action"=>"index", "controller"=>"resume"}
+Rendering template within layouts/resume
+Rendering resume/index
+Completed in 0.00277 (360 reqs/sec) | Rendering: 0.00085 (30%) | DB: 0.00000 (0%) | 200 OK [http://0.0.0.0/resume]
+
+
+Processing ResumeController#index (for 127.0.0.1 at 2008-11-13 23:16:40) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--b7b8295c61d7f548d0955bab7cdd4daae46fd3a0
+  Parameters: {"format"=>"text", "action"=>"index", "controller"=>"resume"}
+Rendering resume/index
+Completed in 0.00255 (392 reqs/sec) | Rendering: 0.00061 (23%) | DB: 0.00000 (0%) | 200 OK [http://0.0.0.0/resume.text]
+
+
+Processing ResumeController#index (for 127.0.0.1 at 2008-11-13 23:21:33) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--b7b8295c61d7f548d0955bab7cdd4daae46fd3a0
+  Parameters: {"format"=>"text", "action"=>"index", "controller"=>"resume"}
+Rendering resume/index
+Completed in 0.00241 (414 reqs/sec) | Rendering: 0.00042 (17%) | DB: 0.00000 (0%) | 200 OK [http://0.0.0.0/resume.text]
+
+
+Processing ResumeController#index (for 127.0.0.1 at 2008-11-13 23:22:43) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--b7b8295c61d7f548d0955bab7cdd4daae46fd3a0
+  Parameters: {"format"=>"text", "action"=>"index", "controller"=>"resume"}
+Rendering resume/index
+Completed in 0.01732 (57 reqs/sec) | Rendering: 0.01510 (87%) | DB: 0.00000 (0%) | 200 OK [http://0.0.0.0/resume.text]
+
+
+Processing ResumeController#index (for 127.0.0.1 at 2008-11-13 23:23:36) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--b7b8295c61d7f548d0955bab7cdd4daae46fd3a0
+  Parameters: {"format"=>"text", "action"=>"index", "controller"=>"resume"}
+Rendering resume/index
+Completed in 0.01425 (70 reqs/sec) | Rendering: 0.01185 (83%) | DB: 0.00000 (0%) | 200 OK [http://0.0.0.0/resume.text]
+
+
+Processing ResumeController#index (for 127.0.0.1 at 2008-11-13 23:23:46) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--b7b8295c61d7f548d0955bab7cdd4daae46fd3a0
+  Parameters: {"format"=>"txt", "action"=>"index", "controller"=>"resume"}
+Rendering resume/index
+Completed in 0.00262 (381 reqs/sec) | Rendering: 0.00062 (23%) | DB: 0.00000 (0%) | 200 OK [http://0.0.0.0/resume.txt]
+
+
+Processing ResumeController#index (for 127.0.0.1 at 2008-11-13 23:23:51) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--b7b8295c61d7f548d0955bab7cdd4daae46fd3a0
+  Parameters: {"format"=>"txt", "action"=>"index", "controller"=>"resume"}
+Rendering resume/index
+Completed in 0.01414 (70 reqs/sec) | Rendering: 0.01209 (85%) | DB: 0.00000 (0%) | 200 OK [http://0.0.0.0/resume.txt]
+
+
+Processing ResumeController#index (for 127.0.0.1 at 2008-11-13 23:28:14) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--b7b8295c61d7f548d0955bab7cdd4daae46fd3a0
+  Parameters: {"format"=>"txt", "action"=>"index", "controller"=>"resume"}
+Rendering resume/index
+Completed in 0.00274 (364 reqs/sec) | Rendering: 0.00066 (24%) | DB: 0.00000 (0%) | 200 OK [http://0.0.0.0/resume.txt]
+
+
+Processing ResumeController#index (for 127.0.0.1 at 2008-11-13 23:28:16) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--b7b8295c61d7f548d0955bab7cdd4daae46fd3a0
+  Parameters: {"format"=>"txt", "action"=>"index", "controller"=>"resume"}
+Rendering resume/index
+Completed in 0.00245 (408 reqs/sec) | Rendering: 0.00044 (17%) | DB: 0.00000 (0%) | 200 OK [http://0.0.0.0/resume.txt]
+
+
+Processing ResumeController#index (for 127.0.0.1 at 2008-11-13 23:28:23) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--b7b8295c61d7f548d0955bab7cdd4daae46fd3a0
+  Parameters: {"format"=>"text", "action"=>"index", "controller"=>"resume"}
+Rendering resume/index
+Completed in 0.00261 (383 reqs/sec) | Rendering: 0.00063 (23%) | DB: 0.00000 (0%) | 200 OK [http://0.0.0.0/resume.text]
+
+
+Processing ResumeController#index (for 127.0.0.1 at 2008-11-13 23:29:01) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--b7b8295c61d7f548d0955bab7cdd4daae46fd3a0
+  Parameters: {"format"=>"html", "action"=>"index", "controller"=>"resume"}
+Rendering template within layouts/resume
+Rendering resume/index
+Completed in 0.01651 (60 reqs/sec) | Rendering: 0.01458 (88%) | DB: 0.00000 (0%) | 200 OK [http://0.0.0.0/resume.html]
+
+
+Processing ResumeController#index (for 127.0.0.1 at 2008-11-13 23:29:02) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--b7b8295c61d7f548d0955bab7cdd4daae46fd3a0
+  Parameters: {"format"=>"html", "action"=>"index", "controller"=>"resume"}
+Rendering template within layouts/resume
+Rendering resume/index
+Completed in 0.00290 (344 reqs/sec) | Rendering: 0.00084 (29%) | DB: 0.00000 (0%) | 200 OK [http://0.0.0.0/resume.html]
+
+
+Processing ResumeController#index (for 127.0.0.1 at 2008-11-13 23:29:20) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--b7b8295c61d7f548d0955bab7cdd4daae46fd3a0
+  Parameters: {"format"=>"html", "action"=>"index", "controller"=>"resume"}
+
+
+NameError (uninitialized constant Mime::TXT):
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:276:in `load_missing_constant'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:468:in `const_missing'
+    /vendor/rails/actionpack/lib/action_controller/mime_responds.rb:146:in `const_get'
+    /vendor/rails/actionpack/lib/action_controller/mime_responds.rb:146:in `method_missing'
+    /app/controllers/resume_controller.rb:7:in `index'
+    /vendor/rails/actionpack/lib/action_controller/mime_responds.rb:106:in `call'
+    /vendor/rails/actionpack/lib/action_controller/mime_responds.rb:106:in `respond_to'
+    /app/controllers/resume_controller.rb:4:in `index'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:1166:in `send'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:1166:in `perform_action_without_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:579:in `call_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:572:in `perform_action_without_benchmark'
+    /vendor/rails/actionpack/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /opt/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /vendor/rails/actionpack/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /vendor/rails/actionpack/lib/action_controller/rescue.rb:201:in `perform_action_without_caching'
+    /vendor/rails/actionpack/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    /vendor/rails/activerecord/lib/active_record/query_cache.rb:8:in `cache'
+    /vendor/rails/actionpack/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:529:in `send'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:529:in `process_without_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:568:in `process_without_session_management_support'
+    /vendor/rails/actionpack/lib/action_controller/session_management.rb:130:in `process'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:389:in `process'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:149:in `handle_request'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:503:in `load'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:503:in `load'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:355:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:503:in `load'
+    /vendor/rails/railties/lib/commands/servers/mongrel.rb:64
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:510:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:355:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:510:in `require'
+    /vendor/rails/railties/lib/commands/server.rb:39
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+
+Rendering /Users/jgrippe/Projects/deadlyicon.com/www/vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing ResumeController#index (for 127.0.0.1 at 2008-11-13 23:29:41) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--b7b8295c61d7f548d0955bab7cdd4daae46fd3a0
+  Parameters: {"format"=>"html", "action"=>"index", "controller"=>"resume"}
+
+
+NameError (uninitialized constant Mime::TXT):
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:276:in `load_missing_constant'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:468:in `const_missing'
+    /vendor/rails/actionpack/lib/action_controller/mime_responds.rb:146:in `const_get'
+    /vendor/rails/actionpack/lib/action_controller/mime_responds.rb:146:in `method_missing'
+    /app/controllers/resume_controller.rb:7:in `index'
+    /vendor/rails/actionpack/lib/action_controller/mime_responds.rb:106:in `call'
+    /vendor/rails/actionpack/lib/action_controller/mime_responds.rb:106:in `respond_to'
+    /app/controllers/resume_controller.rb:4:in `index'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:1166:in `send'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:1166:in `perform_action_without_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:579:in `call_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:572:in `perform_action_without_benchmark'
+    /vendor/rails/actionpack/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /opt/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /vendor/rails/actionpack/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /vendor/rails/actionpack/lib/action_controller/rescue.rb:201:in `perform_action_without_caching'
+    /vendor/rails/actionpack/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    /vendor/rails/activerecord/lib/active_record/query_cache.rb:8:in `cache'
+    /vendor/rails/actionpack/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:529:in `send'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:529:in `process_without_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:568:in `process_without_session_management_support'
+    /vendor/rails/actionpack/lib/action_controller/session_management.rb:130:in `process'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:389:in `process'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:149:in `handle_request'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:503:in `load'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:503:in `load'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:355:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:503:in `load'
+    /vendor/rails/railties/lib/commands/servers/mongrel.rb:64
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:510:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:355:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:510:in `require'
+    /vendor/rails/railties/lib/commands/server.rb:39
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+
+Rendering /Users/jgrippe/Projects/deadlyicon.com/www/vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing ResumeController#index (for 127.0.0.1 at 2008-11-13 23:29:46) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--b7b8295c61d7f548d0955bab7cdd4daae46fd3a0
+  Parameters: {"format"=>"html", "action"=>"index", "controller"=>"resume"}
+Rendering template within layouts/resume
+Rendering resume/index (404)
+Completed in 0.02310 (43 reqs/sec) | Rendering: 0.02078 (89%) | DB: 0.00000 (0%) | 404 Not Found [http://0.0.0.0/resume.html]
+
+
+Processing ResumeController#index (for 127.0.0.1 at 2008-11-13 23:29:49) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--b7b8295c61d7f548d0955bab7cdd4daae46fd3a0
+  Parameters: {"format"=>"txt", "action"=>"index", "controller"=>"resume"}
+Rendering resume/index (404)
+Completed in 0.00260 (384 reqs/sec) | Rendering: 0.00068 (26%) | DB: 0.00000 (0%) | 404 Not Found [http://0.0.0.0/resume.txt]
+
+
+Processing ResumeController#index (for 127.0.0.1 at 2008-11-13 23:29:51) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--b7b8295c61d7f548d0955bab7cdd4daae46fd3a0
+  Parameters: {"format"=>"text", "action"=>"index", "controller"=>"resume"}
+Rendering resume/index (404)
+Completed in 0.00352 (284 reqs/sec) | Rendering: 0.00160 (45%) | DB: 0.00000 (0%) | 404 Not Found [http://0.0.0.0/resume.text]
+
+
+Processing ResumeController#index (for 127.0.0.1 at 2008-11-13 23:41:17) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--b7b8295c61d7f548d0955bab7cdd4daae46fd3a0
+  Parameters: {"format"=>"html", "action"=>"index", "controller"=>"resume"}
+
+
+NameError (undefined local variable or method `render_404' for #<ResumeController:0x252d15c>):
+    /app/controllers/resume_controller.rb:5:in `index'
+    /vendor/rails/actionpack/lib/action_controller/mime_responds.rb:131:in `call'
+    /vendor/rails/actionpack/lib/action_controller/mime_responds.rb:131:in `custom'
+    /vendor/rails/actionpack/lib/action_controller/mime_responds.rb:160:in `call'
+    /vendor/rails/actionpack/lib/action_controller/mime_responds.rb:160:in `respond'
+    /vendor/rails/actionpack/lib/action_controller/mime_responds.rb:154:in `each'
+    /vendor/rails/actionpack/lib/action_controller/mime_responds.rb:154:in `respond'
+    /vendor/rails/actionpack/lib/action_controller/mime_responds.rb:107:in `respond_to'
+    /app/controllers/resume_controller.rb:4:in `index'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:1166:in `send'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:1166:in `perform_action_without_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:579:in `call_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:572:in `perform_action_without_benchmark'
+    /vendor/rails/actionpack/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /opt/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /vendor/rails/actionpack/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /vendor/rails/actionpack/lib/action_controller/rescue.rb:201:in `perform_action_without_caching'
+    /vendor/rails/actionpack/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    /vendor/rails/activerecord/lib/active_record/query_cache.rb:8:in `cache'
+    /vendor/rails/actionpack/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:529:in `send'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:529:in `process_without_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:568:in `process_without_session_management_support'
+    /vendor/rails/actionpack/lib/action_controller/session_management.rb:130:in `process'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:389:in `process'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:149:in `handle_request'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:503:in `load'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:503:in `load'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:355:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:503:in `load'
+    /vendor/rails/railties/lib/commands/servers/mongrel.rb:64
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:510:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:355:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:510:in `require'
+    /vendor/rails/railties/lib/commands/server.rb:39
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+
+Rendering /Users/jgrippe/Projects/deadlyicon.com/www/vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing ResumeController#index (for 127.0.0.1 at 2008-11-13 23:47:31) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--b7b8295c61d7f548d0955bab7cdd4daae46fd3a0
+  Parameters: {"format"=>"html", "action"=>"index", "controller"=>"resume"}
+Rendering template within layouts/resume
+Rendering resume/index (404)
+Completed in 0.02131 (46 reqs/sec) | Rendering: 0.01901 (89%) | DB: 0.00000 (0%) | 404 Not Found [http://0.0.0.0/resume.html]
+
+
+Processing ResumeController#index (for 127.0.0.1 at 2008-11-13 23:47:34) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--b7b8295c61d7f548d0955bab7cdd4daae46fd3a0
+  Parameters: {"format"=>"rtf", "action"=>"index", "controller"=>"resume"}
+Rendering resume/index (404)
+
+
+ActionView::MissingTemplate (Missing template resume/index.rtf.erb in view path /Users/jgrippe/Projects/deadlyicon.com/www/app/views):
+    /vendor/rails/actionpack/lib/action_view/template.rb:85:in `raise_missing_template_exception'
+    /vendor/rails/actionpack/lib/action_view/template.rb:78:in `set_extension_and_file_name'
+    /vendor/rails/actionpack/lib/action_view/template.rb:15:in `initialize'
+    /vendor/rails/actionpack/lib/action_view/base.rb:248:in `new'
+    /vendor/rails/actionpack/lib/action_view/base.rb:248:in `render_file'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:1112:in `render_for_file'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:926:in `render_with_no_layout'
+    /vendor/rails/actionpack/lib/action_controller/layout.rb:259:in `render_without_benchmark'
+    /vendor/rails/actionpack/lib/action_controller/benchmarking.rb:51:in `render'
+    /vendor/rails/activesupport/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+    /vendor/rails/actionpack/lib/action_controller/benchmarking.rb:51:in `render'
+    /app/controllers/resume_controller.rb:6:in `index'
+    /vendor/rails/actionpack/lib/action_controller/mime_responds.rb:131:in `call'
+    /vendor/rails/actionpack/lib/action_controller/mime_responds.rb:131:in `custom'
+    /vendor/rails/actionpack/lib/action_controller/mime_responds.rb:160:in `call'
+    /vendor/rails/actionpack/lib/action_controller/mime_responds.rb:160:in `respond'
+    /vendor/rails/actionpack/lib/action_controller/mime_responds.rb:154:in `each'
+    /vendor/rails/actionpack/lib/action_controller/mime_responds.rb:154:in `respond'
+    /vendor/rails/actionpack/lib/action_controller/mime_responds.rb:107:in `respond_to'
+    /app/controllers/resume_controller.rb:4:in `index'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:1166:in `send'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:1166:in `perform_action_without_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:579:in `call_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:572:in `perform_action_without_benchmark'
+    /vendor/rails/actionpack/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /opt/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /vendor/rails/actionpack/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /vendor/rails/actionpack/lib/action_controller/rescue.rb:201:in `perform_action_without_caching'
+    /vendor/rails/actionpack/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    /vendor/rails/activerecord/lib/active_record/query_cache.rb:8:in `cache'
+    /vendor/rails/actionpack/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:529:in `send'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:529:in `process_without_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:568:in `process_without_session_management_support'
+    /vendor/rails/actionpack/lib/action_controller/session_management.rb:130:in `process'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:389:in `process'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:149:in `handle_request'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:503:in `load'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:503:in `load'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:355:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:503:in `load'
+    /vendor/rails/railties/lib/commands/servers/mongrel.rb:64
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:510:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:355:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:510:in `require'
+    /vendor/rails/railties/lib/commands/server.rb:39
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+
+Rendering /Users/jgrippe/Projects/deadlyicon.com/www/vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing ResumeController#index (for 127.0.0.1 at 2008-11-13 23:48:03) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--b7b8295c61d7f548d0955bab7cdd4daae46fd3a0
+  Parameters: {"format"=>"rtf", "action"=>"index", "controller"=>"resume"}
+
+
+NoMethodError (undefined method `rais' for #<ResumeController:0x2276a1c>):
+    /app/controllers/resume_controller.rb:4:in `index'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:1166:in `send'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:1166:in `perform_action_without_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:579:in `call_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:572:in `perform_action_without_benchmark'
+    /vendor/rails/actionpack/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /opt/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /vendor/rails/actionpack/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /vendor/rails/actionpack/lib/action_controller/rescue.rb:201:in `perform_action_without_caching'
+    /vendor/rails/actionpack/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    /vendor/rails/activerecord/lib/active_record/query_cache.rb:8:in `cache'
+    /vendor/rails/actionpack/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:529:in `send'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:529:in `process_without_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:568:in `process_without_session_management_support'
+    /vendor/rails/actionpack/lib/action_controller/session_management.rb:130:in `process'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:389:in `process'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:149:in `handle_request'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:503:in `load'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:503:in `load'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:355:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:503:in `load'
+    /vendor/rails/railties/lib/commands/servers/mongrel.rb:64
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:510:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:355:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:510:in `require'
+    /vendor/rails/railties/lib/commands/server.rb:39
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+
+Rendering /Users/jgrippe/Projects/deadlyicon.com/www/vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing ResumeController#index (for 127.0.0.1 at 2008-11-13 23:48:09) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--b7b8295c61d7f548d0955bab7cdd4daae46fd3a0
+  Parameters: {"format"=>"rtf", "action"=>"index", "controller"=>"resume"}
+
+
+RuntimeError ({"format"=>"rtf", "action"=>"index", "controller"=>"resume"}):
+    /app/controllers/resume_controller.rb:4:in `index'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:1166:in `send'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:1166:in `perform_action_without_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:579:in `call_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:572:in `perform_action_without_benchmark'
+    /vendor/rails/actionpack/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /opt/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /vendor/rails/actionpack/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /vendor/rails/actionpack/lib/action_controller/rescue.rb:201:in `perform_action_without_caching'
+    /vendor/rails/actionpack/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    /vendor/rails/activerecord/lib/active_record/query_cache.rb:8:in `cache'
+    /vendor/rails/actionpack/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:529:in `send'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:529:in `process_without_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:568:in `process_without_session_management_support'
+    /vendor/rails/actionpack/lib/action_controller/session_management.rb:130:in `process'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:389:in `process'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:149:in `handle_request'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:503:in `load'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:503:in `load'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:355:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:503:in `load'
+    /vendor/rails/railties/lib/commands/servers/mongrel.rb:64
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:510:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:355:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:510:in `require'
+    /vendor/rails/railties/lib/commands/server.rb:39
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+
+Rendering /Users/jgrippe/Projects/deadlyicon.com/www/vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing ResumeController#index (for 127.0.0.1 at 2008-11-13 23:48:21) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--b7b8295c61d7f548d0955bab7cdd4daae46fd3a0
+  Parameters: {"format"=>"rtf", "action"=>"index", "controller"=>"resume"}
+Rendering template within error/404
+Rendering resume/index (404)
+
+
+ActionView::MissingTemplate (Missing template resume/index.rtf.erb in view path /Users/jgrippe/Projects/deadlyicon.com/www/app/views):
+    /vendor/rails/actionpack/lib/action_view/template.rb:85:in `raise_missing_template_exception'
+    /vendor/rails/actionpack/lib/action_view/template.rb:78:in `set_extension_and_file_name'
+    /vendor/rails/actionpack/lib/action_view/template.rb:15:in `initialize'
+    /vendor/rails/actionpack/lib/action_view/base.rb:248:in `new'
+    /vendor/rails/actionpack/lib/action_view/base.rb:248:in `render_file'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:1112:in `render_for_file'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:926:in `render_with_no_layout'
+    /vendor/rails/actionpack/lib/action_controller/layout.rb:251:in `render_without_benchmark'
+    /vendor/rails/actionpack/lib/action_controller/benchmarking.rb:51:in `render'
+    /vendor/rails/activesupport/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+    /vendor/rails/actionpack/lib/action_controller/benchmarking.rb:51:in `render'
+    /app/controllers/resume_controller.rb:6:in `index'
+    /vendor/rails/actionpack/lib/action_controller/mime_responds.rb:131:in `call'
+    /vendor/rails/actionpack/lib/action_controller/mime_responds.rb:131:in `custom'
+    /vendor/rails/actionpack/lib/action_controller/mime_responds.rb:160:in `call'
+    /vendor/rails/actionpack/lib/action_controller/mime_responds.rb:160:in `respond'
+    /vendor/rails/actionpack/lib/action_controller/mime_responds.rb:154:in `each'
+    /vendor/rails/actionpack/lib/action_controller/mime_responds.rb:154:in `respond'
+    /vendor/rails/actionpack/lib/action_controller/mime_responds.rb:107:in `respond_to'
+    /app/controllers/resume_controller.rb:4:in `index'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:1166:in `send'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:1166:in `perform_action_without_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:579:in `call_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:572:in `perform_action_without_benchmark'
+    /vendor/rails/actionpack/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /opt/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /vendor/rails/actionpack/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /vendor/rails/actionpack/lib/action_controller/rescue.rb:201:in `perform_action_without_caching'
+    /vendor/rails/actionpack/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    /vendor/rails/activerecord/lib/active_record/query_cache.rb:8:in `cache'
+    /vendor/rails/actionpack/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:529:in `send'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:529:in `process_without_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:568:in `process_without_session_management_support'
+    /vendor/rails/actionpack/lib/action_controller/session_management.rb:130:in `process'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:389:in `process'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:149:in `handle_request'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:503:in `load'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:503:in `load'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:355:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:503:in `load'
+    /vendor/rails/railties/lib/commands/servers/mongrel.rb:64
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:510:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:355:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:510:in `require'
+    /vendor/rails/railties/lib/commands/server.rb:39
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+
+Rendering /Users/jgrippe/Projects/deadlyicon.com/www/vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing ResumeController#index (for 127.0.0.1 at 2008-11-13 23:48:33) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--b7b8295c61d7f548d0955bab7cdd4daae46fd3a0
+  Parameters: {"format"=>"rtf", "action"=>"index", "controller"=>"resume"}
+Completed in 0.00218 (458 reqs/sec) | Rendering: 0.00023 (10%) | DB: 0.00000 (0%) | 404 Not Found [http://0.0.0.0/resume.rtf]
+
+
+Processing ResumeController#index (for 127.0.0.1 at 2008-11-13 23:49:36) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--b7b8295c61d7f548d0955bab7cdd4daae46fd3a0
+  Parameters: {"format"=>"rtf", "action"=>"index", "controller"=>"resume"}
+Rendering error/404 (404)
+
+
+Errno::ENOENT (No such file or directory - error/404):
+    /vendor/rails/actionpack/lib/action_view/template.rb:39:in `read'
+    /vendor/rails/actionpack/lib/action_view/template.rb:39:in `source'
+    /vendor/rails/actionpack/lib/action_view/template_error.rb:11:in `initialize'
+    /vendor/rails/actionpack/lib/action_view/template.rb:29:in `new'
+    /vendor/rails/actionpack/lib/action_view/template.rb:29:in `render_template'
+    /vendor/rails/actionpack/lib/action_view/base.rb:248:in `render_file'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:1112:in `render_for_file'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:869:in `render_with_no_layout'
+    /vendor/rails/actionpack/lib/action_controller/layout.rb:259:in `render_without_benchmark'
+    /vendor/rails/actionpack/lib/action_controller/benchmarking.rb:51:in `render'
+    /vendor/rails/activesupport/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+    /vendor/rails/actionpack/lib/action_controller/benchmarking.rb:51:in `render'
+    /app/controllers/resume_controller.rb:6:in `index'
+    /vendor/rails/actionpack/lib/action_controller/mime_responds.rb:131:in `call'
+    /vendor/rails/actionpack/lib/action_controller/mime_responds.rb:131:in `custom'
+    /vendor/rails/actionpack/lib/action_controller/mime_responds.rb:160:in `call'
+    /vendor/rails/actionpack/lib/action_controller/mime_responds.rb:160:in `respond'
+    /vendor/rails/actionpack/lib/action_controller/mime_responds.rb:154:in `each'
+    /vendor/rails/actionpack/lib/action_controller/mime_responds.rb:154:in `respond'
+    /vendor/rails/actionpack/lib/action_controller/mime_responds.rb:107:in `respond_to'
+    /app/controllers/resume_controller.rb:4:in `index'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:1166:in `send'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:1166:in `perform_action_without_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:579:in `call_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:572:in `perform_action_without_benchmark'
+    /vendor/rails/actionpack/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /opt/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /vendor/rails/actionpack/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /vendor/rails/actionpack/lib/action_controller/rescue.rb:201:in `perform_action_without_caching'
+    /vendor/rails/actionpack/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    /vendor/rails/activerecord/lib/active_record/query_cache.rb:8:in `cache'
+    /vendor/rails/actionpack/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:529:in `send'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:529:in `process_without_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:568:in `process_without_session_management_support'
+    /vendor/rails/actionpack/lib/action_controller/session_management.rb:130:in `process'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:389:in `process'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:149:in `handle_request'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:503:in `load'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:503:in `load'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:355:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:503:in `load'
+    /vendor/rails/railties/lib/commands/servers/mongrel.rb:64
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:510:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:355:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:510:in `require'
+    /vendor/rails/railties/lib/commands/server.rb:39
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+
+Rendering /Users/jgrippe/Projects/deadlyicon.com/www/vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing ResumeController#index (for 127.0.0.1 at 2008-11-13 23:51:31) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--b7b8295c61d7f548d0955bab7cdd4daae46fd3a0
+  Parameters: {"format"=>"rtfas", "action"=>"index", "controller"=>"resume"}
+Completed in 0.00245 (407 reqs/sec) | Rendering: 0.00049 (19%) | DB: 0.00000 (0%) | 406 Not Acceptable [http://0.0.0.0/resume.rtfas]
+
+
+Processing ResumeController#index (for 127.0.0.1 at 2008-11-13 23:51:33) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--b7b8295c61d7f548d0955bab7cdd4daae46fd3a0
+  Parameters: {"format"=>"rtfassdsa", "action"=>"index", "controller"=>"resume"}
+Completed in 0.00228 (437 reqs/sec) | Rendering: 0.00040 (17%) | DB: 0.00000 (0%) | 406 Not Acceptable [http://0.0.0.0/resume.rtfassdsa]
+
+
+Processing ResumeController#index (for 127.0.0.1 at 2008-11-13 23:51:35) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--b7b8295c61d7f548d0955bab7cdd4daae46fd3a0
+  Parameters: {"format"=>"asdsa", "action"=>"index", "controller"=>"resume"}
+Completed in 0.00237 (421 reqs/sec) | Rendering: 0.00042 (17%) | DB: 0.00000 (0%) | 406 Not Acceptable [http://0.0.0.0/resume.asdsa]
+
+
+Processing ResumeController#index (for 127.0.0.1 at 2008-11-13 23:51:39) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--b7b8295c61d7f548d0955bab7cdd4daae46fd3a0
+  Parameters: {"format"=>"rtf", "action"=>"index", "controller"=>"resume"}
+Completed in 0.00262 (381 reqs/sec) | Rendering: 0.00042 (15%) | DB: 0.00000 (0%) | 406 Not Acceptable [http://0.0.0.0/resume.rtf]
+
+
+Processing ResumeController#index (for 127.0.0.1 at 2008-11-13 23:52:02) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--b7b8295c61d7f548d0955bab7cdd4daae46fd3a0
+  Parameters: {"format"=>"rtf", "action"=>"index", "controller"=>"resume"}
+Completed in 0.00234 (427 reqs/sec) | Rendering: 0.00043 (18%) | DB: 0.00000 (0%) | 406 Not Acceptable [http://0.0.0.0/resume.rtf]
+
+
+Processing ResumeController#index (for 127.0.0.1 at 2008-11-13 23:53:30) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--b7b8295c61d7f548d0955bab7cdd4daae46fd3a0
+  Parameters: {"format"=>"rtf", "action"=>"index", "controller"=>"resume"}
+Completed in 0.00235 (425 reqs/sec) | Rendering: 0.00042 (17%) | DB: 0.00000 (0%) | 406 Not Acceptable [http://0.0.0.0/resume.rtf]
+
+
+Processing ResumeController#index (for 127.0.0.1 at 2008-11-13 23:56:49) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--b7b8295c61d7f548d0955bab7cdd4daae46fd3a0
+  Parameters: {"format"=>"rtf", "action"=>"index", "controller"=>"resume"}
+Completed in 0.00234 (426 reqs/sec) | Rendering: 0.00043 (18%) | DB: 0.00000 (0%) | 406 Not Acceptable [http://0.0.0.0/resume.rtf]
+
+
+Processing ResumeController#index (for 127.0.0.1 at 2008-11-13 23:56:52) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--b7b8295c61d7f548d0955bab7cdd4daae46fd3a0
+  Parameters: {"format"=>"rtfasdsa", "action"=>"index", "controller"=>"resume"}
+Completed in 0.00239 (419 reqs/sec) | Rendering: 0.00044 (18%) | DB: 0.00000 (0%) | 406 Not Acceptable [http://0.0.0.0/resume.rtfasdsa]
+
+
+Processing ResumeController#index (for 127.0.0.1 at 2008-11-13 23:56:54) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--b7b8295c61d7f548d0955bab7cdd4daae46fd3a0
+  Parameters: {"format"=>"rtfasdsa", "action"=>"index", "controller"=>"resume"}
+Completed in 0.00236 (424 reqs/sec) | Rendering: 0.00045 (19%) | DB: 0.00000 (0%) | 406 Not Acceptable [http://0.0.0.0/resume.rtfasdsa]
+
+
+Processing ResumeController#index (for 127.0.0.1 at 2008-11-13 23:57:55) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--b7b8295c61d7f548d0955bab7cdd4daae46fd3a0
+  Parameters: {"action"=>"index", "controller"=>"resume"}
+Rendering template within layouts/resume
+Rendering resume/index (404)
+Completed in 0.01991 (50 reqs/sec) | Rendering: 0.01779 (89%) | DB: 0.00000 (0%) | 404 Not Found [http://0.0.0.0/resume]
+
+
+Processing ResumeController#index (for 127.0.0.1 at 2008-11-13 23:57:56) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--b7b8295c61d7f548d0955bab7cdd4daae46fd3a0
+  Parameters: {"action"=>"index", "controller"=>"resume"}
+Rendering template within layouts/resume
+Rendering resume/index (404)
+Completed in 0.00309 (323 reqs/sec) | Rendering: 0.00094 (30%) | DB: 0.00000 (0%) | 404 Not Found [http://0.0.0.0/resume]
+
+
+Processing ResumeController#index (for 127.0.0.1 at 2008-11-13 23:59:49) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--b7b8295c61d7f548d0955bab7cdd4daae46fd3a0
+  Parameters: {"action"=>"index", "controller"=>"resume"}
+Rendering template within layouts/resume
+Rendering resume/index (404)
+Completed in 0.00292 (342 reqs/sec) | Rendering: 0.00090 (30%) | DB: 0.00000 (0%) | 404 Not Found [http://0.0.0.0/resume]
+
+
+Processing ResumeController#index (for 127.0.0.1 at 2008-11-13 23:59:57) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--b7b8295c61d7f548d0955bab7cdd4daae46fd3a0
+  Parameters: {"action"=>"index", "controller"=>"resume"}
+Rendering template within layouts/resume
+Rendering resume/index (404)
+Completed in 0.01664 (60 reqs/sec) | Rendering: 0.01451 (87%) | DB: 0.00000 (0%) | 404 Not Found [http://0.0.0.0/resume]
+
+
+Processing IndexController#index (for 127.0.0.1 at 2008-11-14 00:00:00) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--b7b8295c61d7f548d0955bab7cdd4daae46fd3a0
+  Parameters: {"action"=>"index", "controller"=>"index"}
+Rendering template within layouts/application
+Rendering index/index
+Completed in 0.00488 (204 reqs/sec) | Rendering: 0.00318 (65%) | DB: 0.00000 (0%) | 200 OK [http://0.0.0.0/]
