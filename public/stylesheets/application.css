@@ -1,0 +1,22 @@
+html,body{
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  border: none;
+  overflow: hidden;
+  color: white;
+  font-family: 'Trebuchet MS',Arial,Sans-serif;
+  line-height: 20px;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+a,
+a:link,
+a:visited,
+a:active{
+  color: blue;
+}
