@@ -4,10 +4,6 @@ class IndexController < ApplicationController
   end
 
   def foaf
-    # respond_to do |format|
-    #    format.rdf { }
-    #    format.xml { }
-    #  end
   end
 
 end
