@@ -50,10 +50,7 @@ Rails::Initializer.run do |config|
   # If you change this key, all old sessions will become invalid!
   # Make sure the secret is at least 30 characters and all random, 
   # no regular words or you'll be exposed to dictionary attacks.
-  config.action_controller.session = {
-    :session_key => '_deadlyicon.com_session',
-    :secret      => '58464bbcde2dae4429df3f8bf3afe17cd302d680cec455a15d1f808c842d9b2b1591f0e6307e4a2ce11d67fadaa622c1d95d8d6564f264f3beb59fe9dcd1eb45'
-  }
+  config.action_controller.session = YAML.parse(File.join(RAILS_ROOT,'config/session.yml')).transform
 
   # Use the database for sessions instead of the cookie-based default,
   # which shouldn't be used to store highly confidential information
