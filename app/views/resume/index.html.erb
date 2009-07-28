@@ -8,10 +8,30 @@ body, html{
  padding: 0;
  margin: 5px;
  font-family: arial,helvetica,verdana;
+ background-color: darkgrey;
 }
 body{
  padding: 0 40px 20px 40px;
  font-size: 15px;
+ width: 700px;
+ margin: 0 auto;
+ background-color: white;
+ border-width: 0 1px;
+ border-color: black;
+}
+#resume{
+  padding: 1em;
+  display: inline-block
+}
+#resume:after{
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+* html #resume:after{
+  height: 1px
 }
 
 a,
@@ -106,6 +126,22 @@ li.client{
  margin-right: 10px;
 }
 
+#expirence .tech ol{
+  display: inline;
+  padding: 0;
+  margin: 0;
+  list-style: none inside url();
+}
+#expirence .tech ol li{
+  display: inline;
+}
+#expirence .tech ol li:after{
+  content: ","; 
+}
+#expirence .tech ol li:last-child:after{
+  content: ""; 
+}
+
 </style>
 </head>
 <body>
@@ -189,10 +225,6 @@ li.client{
         Windows 2000/XP/Vista, OS X, Linux
       </div>
     </div>
-
-
-
-
   </div>
 
 
@@ -203,6 +235,38 @@ li.client{
     <div class="subsection job">
       <div class="position">Senior Software Engineer</div>
       <div class="date">June 08 - Present</div>
+      <div class="company">
+        <a href="http://www.verticalresponse.com">
+          Rupture.com EA Inc.
+        </a>
+      </div>
+      <div class="desc">
+        <%#<div class="duties">
+          <h3>Duties</h3>
+          
+        </div>%>
+        <div class="tech">
+          <h3>Technologies, Tools and Techniques</h3>
+          <ol>
+            <li>Ruby</li>
+            <li>Rails</li>
+            <li>Javascript</li>
+            <li>DHTML</li>
+            <li>AJAX</li>
+            <li>REST</li>
+            <li>GIT</li>
+            <li>XP</li>
+            <li>ABC</li>
+            <li>Pair Programming</li>
+          </ol>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="subsection job">
+      <div class="position">Senior Software Engineer</div>
+      <div class="date">June 08 - April 09</div>
       <div class="company">
         <a href="http://www.verticalresponse.com">
           Vertical Response
@@ -483,8 +547,7 @@ li.client{
     </div>
 
   </div>
-
-</div>
+  
 </div>
 
 <%= render :partial => 'layouts/google_analytics' %>
