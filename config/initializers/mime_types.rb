@@ -5,6 +5,7 @@
 # Mime::Type.register_alias "text/html", :iphone
 
 Mime::Type.register "application/rdf+xml", :rdf
+Mime::Type.register "application/pdf", :pdf
 Mime::Type.register "text/richtext", :rtf
 Mime::Type.register_alias "text/plain", :txt
 # Mime::Type.register_alias "text/plain", :rdf
